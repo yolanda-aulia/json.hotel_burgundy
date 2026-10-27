@@ -1,0 +1,79 @@
+{
+  "kamar": {
+    "kamar_1": {
+      "id": 1,
+      "slug": "burgundy-deluxe",
+      "nama_kamar": "Burgundy Deluxe",
+      "kategori": "deluxe",
+      "harga_per_malam": 1850000,
+      "ukuran_m2": 42,
+      "tipe_kasur": "King Bed",
+      "deskripsi": "Kamar luas dengan nuansa warna burgundy emas, dilengkapi balkon pribadi dan kamar mandi marmer.",
+      "gambar": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80",
+      "fasilitas": [
+        "WiFi 1Gbps",
+        "Smart HDTV",
+        "Coffee Maker"
+      ]
+    },
+    "kamar_2": {
+      "id": 2,
+      "slug": "royal-executive",
+      "nama_kamar": "Royal Executive",
+      "kategori": "suite",
+      "harga_per_malam": 3450000,
+      "ukuran_m2": 68,
+      "tipe_kasur": "Super King",
+      "deskripsi": "Suite eksklusif dengan ruang tamu terpisah, fasilitas jacuzzi pribadi, dan akses langsung ke Executive Lounge.",
+      "gambar": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "fasilitas": [
+        "Smart Jacuzzi",
+        "Mini Bar Lounge",
+        "Living Room"
+      ]
+    },
+    "kamar_3": {
+      "id": 3,
+      "slug": "presidential-palace",
+      "nama_kamar": "Presidential Palace",
+      "kategori": "presidential",
+      "harga_per_malam": 6900000,
+      "ukuran_m2": 140,
+      "tipe_kasur": "Presidential",
+      "deskripsi": "Mahakarya terbesar di lantai teratas. Dilengkapi kolam renang pribadi, layanan butler dedicated, dan panorama kota.",
+      "gambar": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "fasilitas": [
+        "Private Pool",
+        "Dedicated Butler",
+        "VIP Airport Shuttle"
+      ]
+    }
+  },
+  "pemesanan": {
+    "GBH-99120": {
+      "kode_booking": "GBH-99120",
+      "kamar_id": 1,
+      "nama_tamu": "Budi Santoso",
+      "email_tamu": "budi@example.com",
+      "telepon_tamu": "081234567890",
+      "check_in": "2026-10-21",
+      "check_out": "2026-10-22",
+      "durasi_malam": 1,
+      "tarif_per_malam": 1850000,
+      "subtotal": 1850000,
+      "pajak": 185000,
+      "total_bayar": 2035000,
+      "status": "terkonfirmasi",
+      "created_at": "2026-10-27T10:00:00Z"
+    }
+  },
+  "pesan_kontak": {
+    "pesan_1": {
+      "nama_lengkap": "Siti Rahma",
+      "email": "siti@example.com",
+      "telepon": "081987654321",
+      "pesan": "Apakah ada promo khusus untuk pemesanan rombongan?",
+      "created_at": "2026-10-27T11:00:00Z"
+    }
+  }
+}
